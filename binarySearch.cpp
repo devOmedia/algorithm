@@ -28,22 +28,27 @@ int main(){
  int low = 0;
  int heigh = sizeof(ary)/sizeof(ary[0]);
 
- ///print all the elements of the arry
+ ///print all the elements of the array
  cout << "Given array: ";
+
+ ///literate all the element from ary
+ /// then assign it to n untill the the last element of the array.
  for(int n : ary){
  cout << n << " ";
  }
+
+ ///print 2 newline.
  cout << endl << endl;
 
 
 
- int index = binarySrarch(ary, key, low, heigh);
+ int index = binarySrarch(ary, key, low, heigh-1);
 
  ///function will return -1 if key not found. otherwise index.
  if(index == -1){
   cout << "The key: "<< key << " is not found is the array" << endl;
  } else{
-  cout << "The key is fount at " << index << "th index." << endl;
+  cout << "The key (" << key << ") is fount at " << index << "th index." << endl;
  }
 
  return 0;
