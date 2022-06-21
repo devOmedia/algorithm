@@ -2,6 +2,7 @@
 using namespace std;
 
 
+
 int binarySrarch(int *ary, int key, int low, int high){
   ///terminate logic
   if(low > high){
@@ -24,6 +25,7 @@ int binarySrarch(int *ary, int key, int low, int high){
 
 int main(){
  int ary[] = {10, 12, 16, 18, 20, 22, 24, 26, 28, 30};
+
  int key = 20;
  int low = 0;
  int heigh = sizeof(ary)/sizeof(ary[0]);
