@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1657289778 source:/home/ome/Desktop/quicksort/quickSort/time.cpp
+	"timer.h"
+
+1657289689 /home/ome/Desktop/quicksort/quickSort/timer.h
+	<chrono>
+
+1657296871 source:/home/ome/Desktop/quicksort/quickSort/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<thread>
+	"timer.h"
+
